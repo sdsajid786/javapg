@@ -14,3 +14,19 @@ closed all open windows
 check again by cmd prompt
 write java -version then press enter
 output you got your java version which you installed.
+testing first java program in windows 10/11
+now write your first java program example in text file 
+public class He {
+    public static void main(String[] args) {
+	System.out.println("Hello, World!");
+       System.out.println("testing first java program in windows 10/11");
+    }
+}
+closed file and save with extension filename.java
+check and run java file by cmd prompt
+C:\Program Files\Java\jdk-13.0.1\bin\javapgs>javac He.java
+C:\Program Files\Java\jdk-13.0.1\bin\javapgs>java He.java
+u got output of your java program
+Hello, World!
+testing first java program in windows 10/11
+ok i explain basics of java program to u thanks. 
