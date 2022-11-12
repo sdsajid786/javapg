@@ -30,3 +30,5 @@ u got output of your java program
 Hello, World!
 testing first java program in windows 10/11
 ok i explain basics of java program to u thanks. 
+IN Mac OS : Type /usr/libexec/java_home -v 1.7 into the terminal and press Enter on your keyboard to ensure Java is installed on your system. Then, type echo export "JAVA_HOME=\$(/usr/libexec/java_home)" >> ~/.bash_profile into the terminal and press Enter on your keyboard .
+ Restart the terminal afterwards.
