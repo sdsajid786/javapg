@@ -1,0 +1,21 @@
+#basics of java setup in windows 10/11 pc first check your windows 10/11 pc java software is installed or not 
+go to cmd prompt write java -version then press enter.
+if java version u got then java software installed in your pc.
+if not got java version then you download java jdk by https://www.oracle.com/java/technologies/javase/jdk15-archive-downloads.html.
+forjava setup go to system environment variables in windows 10/11. 
+go to open system properties and click Advanced and click Environment variables go to under system variables select Path
+In the New System Variable window, define the following: To create a new system variable, click New.
+Variable path C:\Program Files\Java\jdk-13.0.1\bin Click OK twice to save the new system variable.
+closed all open windows check again by cmd prompt write java -version then press enter output you got your java version
+which you installed. testing first java program in windows 10/11 now write your first java program example in text file
+public class He { public static void main(String[] args) { System.out.println("Hello, World!"); System.out.println("testing first java program in windows 10/11"); } }
+closed file and save with extension filename.java 
+check and run java file by cmd prompt C:\Program Files\Java\jdk-13.0.1\bin\javapgs>javac He.java 
+C:\Program Files\Java\jdk-13.0.1\bin\javapgs>java He.java
+u got output of your java program Hello, World! 
+testing first java program in windows 10/11 
+ok i explain basics of java program to u thanks.
+IN Mac OS : Type /usr/libexec/java_home -v 1.7 
+into the terminal and press Enter on your keyboard to ensure Java is installed on your system. Then, 
+type echo export "JAVA_HOME=$(/usr/libexec/java_home)" >> ~/.bash_profile into the terminal and press Enter on your keyboard 
+Restart the terminal afterwards.
